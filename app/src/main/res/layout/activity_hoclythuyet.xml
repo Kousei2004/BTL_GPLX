@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_driving_theory_tips.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollable"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:gravity="start|center_vertical"
+            android:drawableLeft="@drawable/button_back"
+            android:drawablePadding="60dp"
+
+            android:paddingStart="16dp"
+            android:text="LÝ THUYẾT LÁI XE A1"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner_select_chapter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:drawableStart="@drawable/baseline_manage_search_24"
+            android:background="@drawable/blue_blox" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_section1"
+            android:text="I. CÁC KHÁI NIỆM CƠ BẢN"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_blox"
+            android:padding="10dp"
+            android:text="
+1. Phần đường xe chạy: Là phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại.\n
+2. Làn đường: chia theo chiều dọc, có bề rộng đủ cho xe chạy an toàn.\n
+3. Khổ giới hạn đường bộ: chiều cao, chiều rộng, hàng hóa xếp trên xe.\n
+4. Dải phân cách: phân chia phần đường xe cơ giới, xe thô sơ.\n
+• Gồm hai loại: cố định và di động.\n
+5. Người lái xe: là người điều khiển xe cơ giới.\n
+6. Đường ưu tiên: được các phương tiện nhường đường.\n
+7. Phương tiện giao thông cơ giới đường bộ: kể cả xe máy điện, các loại xe tương tự.\n
+8. Phương tiện giao thông thô sơ đường bộ: kể cả xe đạp máy, các loại xe tương tự.\n
+9. Phương tiện tham gia giao thông đường bộ: cơ giới, thô sơ, xe máy chuyên dùng.\n
+10. Người điều khiển phương tiện tham gia giao thông: người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng.\n
+11. Người tham gia giao thông:\n
+• Người sử dụng phương tiện.\n
+• Dẫn dắt súc vật, người đi bộ.\n
+12. Người điều khiển giao thông:\n
+• Cảnh sát giao thông.\n
+• Người được giao nhiệm vụ hướng dẫn giao thông.\n
+13. Dừng xe: đứng yên tạm thời.\n
+14. Đổ xe: đứng yên không giới hạn thời gian.\n"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+
+        <!-- Phần II. Quy Tắc Giao Thông Đường Bộ -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="II. QUY TẮC GIAO THÔNG ĐƯỜNG BỘ"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/text_section2"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:layout_marginStart="16dp"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_blox"
+            android:padding="10dp"
+            android:text="
+1. Hiệu lệnh của người điều khiển giao thông:\n
+• Tay giơ thẳng đứng: tất cả dừng lại.\n
+• Hai tay hoặc một tay giơ ngang: trước sau dừng lại, trái phải được đi.\n
+2. Khi sử dụng GPLX đã khai báo mất: bị tước GPLX 5 năm.\n
+3. Trong đô thị và khu đông dân cư:\n
+• Không được bấm còi từ 22 giờ tối đến 5 giờ sáng.\n
+• Không được sử dụng đèn chiếu xa.\n
+• Chỉ được báo hiệu xin vượt bằng đèn từ 22 giờ đến 5 giờ sáng.\n
+• Chỉ được quay đầu xe nơi đường giao nhau, nơi có biển báo quay đầu xe.\n
+4. Nhường đường tại nơi giao nhau:\n
+• Không có biển báo hiệu đi theo vòng xuyến nhường đường bên phải.\n
+• Có biển báo hiệu đi theo vòng xuyến nhường đường bên trái.\n
+5. Xe quá tải trọng, quá khổ khi lưu thông trên đường: phải được cơ quan quản lý đường bộ có thẩm quyền cấp phép.\n
+6. Khi đỗ xe ô tô sát lề đường hè phố phái bên phải:\n
+• Cách lề, hè phố không quá 0.25 m.\n
+• Cách xe ô tô đang đỗ phía bên kia đường tối thiểu 20m.\n
+7. Vạch nét liền không được đè vạch, vạch nét đứt được đè vạch.\n
+8. Vạch màu vàng phân chia các làn xe ngược chiều; vạch màu trắng phân chia các làn xe chạy cùng chiều.\n"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+
+
+        <!-- Phần III. Tốc Độ Tối Đa Cho Phép, Khoảng Cách An Toàn -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="III. TỐC ĐỘ TỐI ĐA CHO PHÉP, KHOẢNG CÁCH AN TOÀN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/text_section3"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="2dp"
+            android:textColor="#000000"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/blue_blox"
+
+            android:padding="10dp"
+            android:text="Xe máy chuyên dùng, xe gắn máy (kể cả xe máy điện) và các loại xe tương tự : 40 km/h\n\n
+Tốc độ tối đa cho phép trong khu vực đông dân cư (trừ đường cao tốc)\n\n
+Loại xe cơ giới đường bộ\n\n
+Tốc độ tối đa (km/h)\n\n
+- Xe máy chuyên dùng, xe gắn máy (kể cả xe máy điện) và các loại xe tương tự: 40 km/h\n
+- Ô tô chở người đến 30 chỗ ngồi (kể cả người lái xe): 60 km/h\n
+- Ô tô chở người trên 30 chỗ ngồi: 60 km/h\n
+- Ô tô tải có khối lượng hàng hóa chuyên chở theo thiết kế từ 3.500 kg trở lên: 60 km/h\n
+- Ô tô tải có khối lượng hàng hóa chuyên chở theo thiết kế dưới 3.500 kg: 60 km/h\n
+- Ô tô kéo rơ moóc, sơ mi rơ moóc: 50 km/h\n
+- Ô tô kéo xe khác: 50 km/h\n
+- Xe mô tô, xe gắn máy (kể cả xe máy điện): 40 km/h\n"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+        <!-- Phần IV. Hoạt Động Vận Tải Đường Bộ -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IV. HOẠT ĐỘNG VẬN TẢI ĐƯỜNG BỘ"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:id="@+id/text_section4"
+            android:textColor="#000000"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_blox"
+            android:padding="10dp"
+            android:text="1. Thời gian làm việc vủa người lái xe ô tô: không quá 10h trên ngày, không lái liên tục quá 4h.\n
+2. Quyền và nghĩa vụ của hành khách: được miễn phí cước hành lý ≤ 20 kg.\n
+3. Hàng siêu trường, siêu trọng: kích thướt hoặc trọng lượng vượt quá giới hạn quy định nhưng không thể tháo rời được.\n
+4. Giấy phép lái xe:\n
+• Hạng A1: xe mô tô 2 bánh có dung tích xy lanh từ 50 cm3 đến dưới 175 cm3, xe mô tô 3 bánh dùng cho người khuyết tật.\n
+• Hạng A2: xe mô tô 2 bánh có dung tích xy lanh từ 175 cm3 trở lên và hạng A1.\n
+• Hạng A3: xe mô tô 3 bánh và hạng A1.\n
+• Hạng A4: máy kéo nhỏ có trọng tải đến 1.000 kg.\n
+• Hạng B1: chở người đến 9 chỗ, tải dưới 3,5 T (không được kinh doanh vận tải).\n
+• Hạng B1 tự động: ô tô tự động chở người đến 9 chỗ, tải tự động dưới 3,5 T (không được kinh doanh vận tải), ô tô dùng cho người khuyết tật.\n
+• Hạng B2: chở người đến 9 chỗ, tải dưới 3,5 T.\n
+• Hạng C: chở người đến 9 chỗ, tải trên 3,5 T.\n
+• Hạng D: chở người từ 10-30 chỗ.\n
+• Hạng E: chở người trên 30 chỗ.\n
+• Hạng FC: Lái xe hạng C có kéo rơ móc, ô tô đầu kéo kéo sơ mi rơ moóc.\n
+• Hạng FE: Lái xe hạng E có kéo theo rơ móc, ô tô chở khách nối toa.\n
+5. Tuổi sức khỏe của người lái xe:\n
+• Đủ 16 tuổi: lái xe gắn máy dưới 50 cm3.\n
+• Đủ 18 tuổi: lái xe hạng A1, A2, A3, A4, B1, B2.\n
+• Đủ 21 tuổi: lái xe hạng C.\n
+• Đủ 24 tuổi: lái xe hạng D.\n
+• Đủ 27 tuổi: lái xe hạng E.\n
+• Tuổi tối đa của người lái xe ô tô chở người trên 30 chỗ: Nam 55 tuổi, Nữ 50 tuổi.\n"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+        <!-- Phần V. Cấu Tạo Và Công Dụng Của Động Cơ Ô Tô -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V. CẤU TẠO VÀ CÔNG DỤNG CỦA ĐỘNG CƠ Ô TÔ"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/text_section5"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="2dp"
+            android:textColor="#000000"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_blox"
+
+            android:layout_marginStart="2dp"
+            android:padding="10dp"
+            android:text="1. Yêu cầu kính chắn gió ô tô: loại kính an toàn.\n
+2. Âm lượng còi điện lắp trên ô tô: từ 90-115 dB.\n
+3. Nguyên nhân làm động cơ diesel không nổ: Hết nhiên liệu, lõi lọc nhiên liệu bị tắc, lọc khí bị tắc, nhiên liệu lẫn không khí và tạp chất.\n
+4. Yêu cầu về an toàn kỹ thuật đối với dây đai an toàn lắp trên ô tô: Cơ cấu hãm giữ chặt dây khi giật đột ngột.\n
+5. Động cơ 4 kỳ: 4 hành trình.\n
+6. Động cơ 2 kỳ: 2 hành trình.\n
+7. Công dụng dầu bôi trơn: bôi trơn cho các chi tiết của động cơ.\n
+8. Công dụng của động cơ ô tô: nhiệt năng biến thành cơ năng.\n
+9. Công dụng của hệ thống truyền lực ô tô: truyền mô men quay.\n
+10. Công dụng ly hợp của ô tô: truyền hoặc ngắt truyền động.\n
+11. Công dụng của hộp số ô tô: đảm bảo cho ô tô chuyển động lùi.\n
+12. Công dụng hệ thống lái của ô tô: thay đổi hướng.\n
+13. Công dụng hệ thống phanh ô tô: giảm tốc độ.\n
+14. Công dụng ác quy: tích trữ điện năng.\n
+15. Công dụng máy phát điện: phát điện năng.\n"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+        <!-- Phần VI. Kỹ Thuật Lái Xe Ô Tô -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VI. KỸ THUẬT LÁI XE Ô TÔ"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:layout_marginStart="16dp"
+            android:id="@+id/text_section6"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/blue_blox"
+            android:padding="10dp"
+            android:text="1. Khởi hành ô tô trên đường bằng: đạp ly hợp hết hành trình, vào số 1.\n
+2. Khi vào số để khởi hành ô tô có số tự động: đạp phanh chân hết hành trình.\n
+3. Sử dụng chân khi điều khiển xe ô tô số tự động: không sử dụng chân trái.\n
+4. Khi nhả phanh tay: tay phải bóp khóa hãm.\n
+5. Khi điều khiển xe trên đường vòng: giảm tốc độ, về số thấp.\n
+6. Khi điều khiển xe ô tô trên đường trơn: không đánh lái ngoặt và phanh gấp.\n
+7. Khi điều khiển ô tô gặp mưa to hoặc sương mù: bật đèn chiếu gần và đèn vàng, đi chậm.\n
+8. Khi điều khiển ô tô trong trời mưa: Giảm tốc độ, quan sát, không phanh gấp, bật đèn chiếu gần.\n
+9. Khi điều khiển ô tô qua đoạn đường ngập nước: Ước lượng độ ngập nước, về số thấp.\n
+10. Khi xuống dốc, muốn dừng xe: về số 1, đạp nửa ly hợp cho xe đến chỗ dừng.\n
+11. Khi điều khiển ô tô xuống đường dốc dài, độ dốc cao: về số thấp.\n
+12. Khi điều khiển ô tô lên dốc cao: về số thấp, đến gần đỉnh dốc đi chậm.\n
+13. Khi điều khiển xe ô tô rẽ trái ở chỗ đường giao nhau: có tín hiệu rẽ trái, cho xe chạy chậm tới phía trong của tâm đường giao nhau.\n
+14. Khi điều khiển xe ô tô rẽ phải ở chỗ đường giao nhau: điều khiển xe bám sát phía phải, giảm tốc độ.\n
+15. Khi quay đầu xe ở nơi nguy hiểm: đưa đầu xe về phía nguy hiểm, đuôi xe về phía an toàn.\n
+16. Khi điều khiển ô tô tới gần xe chạy ngược chiều vào ban đêm: đèn chiếu xa sang đèn chiếu gần, nhìn chếch sang phía phải.\n
+17. Khi điều khiển xe qua đường sắt: dừng xe tạm thời, quan sát.\n
+18. Khi điều khiển xe ô tô tự đổ:\n
+• Không lấy lái gấp và không phanh gấp.\n
+• Khi đổ hàng phải chọn vị trí có nền đường cứng và phẳng.\n
+19. Khi điều khiển tăng số: không được nhìn xuống buồng lái.\n
+20. Khi điều khiển xe giảm số: không được nhìn xuống buồng lái.\n
+21. Đổ xe ô tô sát lề đường bên phải, khi mở cửa bên trái: mở cửa một cách từ từ.\n"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+        <!-- Phần VII. Giải Quyết Tình Huống Khi Gặp TAI NẠN -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VII. GIẢI QUYẾT TÌNH HUỐNG KHI GẶP TAI NẠN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:layout_marginStart="16dp"
+            android:id="@+id/text_section7"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/blue_blox"
+            android:text="1. Nguyên tắc đầu tiên khi gặp tai nạn: Kiểm tra tình trạng của các nạn nhân.\n
+2. Nguyên tắc thứ hai: Thực hiện việc cấp cứu cho nạn nhân, không nên di chuyển nạn nhân trừ khi cần thiết.\n
+3. Nguyên tắc thứ ba: Thông báo ngay cho cơ quan chức năng và trợ giúp nạn nhân.\n
+4. Trong trường hợp có người chết: không được di chuyển hiện trường.\n
+5. Ghi nhận thông tin: người điều khiển phương tiện, biển số xe, vị trí xảy ra tai nạn, người làm chứng, nạn nhân.\n
+6. Cần có đầy đủ giấy tờ: giấy phép lái xe, giấy tờ xe, bảo hiểm.\n
+7. Thực hiện các biện pháp an toàn:\n
+• Cảnh báo bằng cách bật đèn báo hiệu, sử dụng băng rôn hoặc phản quang.\n
+• Sử dụng bình chữa cháy nếu có cháy.\n
+8. Giải quyết thương mại: tránh tranh chấp, thỏa thuận bồi thường.\n"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:paddingBottom="16dp"/>
+
+        <Button
+            android:id="@+id/button_back_to_top"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="QUAY LẠI ĐẦU TRANG"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:background="@drawable/bg_btn_blue_corner_16"
+            android:textColor="#FFFFFF"
+            android:drawableLeft="@drawable/button_back"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+</ScrollView>

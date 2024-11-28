@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/baseline_comment_24"
+        android:id="@+id/navEvaluate"
+        android:title="ĐÁNH GIÁ ỨNG DỤNG"/>
+    <item
+        android:icon="@drawable/baseline_share_24"
+        android:id="@+id/navShare"
+        android:title="CHIA SẺ ỨNG DỤNG"/>
+    <item
+        android:icon="@drawable/baseline_feedback_24"
+        android:id="@+id/navFeedBack"
+        android:title="PHẢN HỒI VÀ GÓP Ý "/>
+    <item
+        android:icon="@drawable/baseline_delete_24"
+        android:id="@+id/navDelete"
+        android:title="XÓA TOÀN BỘ DỮ LIỆU "/>
+    <item
+        android:icon="@drawable/ic_nav_thongtin"
+        android:id="@+id/navProfile"
+        android:title="THÔNG TIN ỨNG ỤNG"/>
+    <item
+        android:icon="@drawable/ic_nav_logout"
+        android:id="@+id/navLogout"
+        android:title="ĐĂNG XUẤT"/>
+</menu>

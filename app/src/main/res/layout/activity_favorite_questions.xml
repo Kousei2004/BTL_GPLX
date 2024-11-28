@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <!-- Nút Câu Hỏi Yêu Thích -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:gravity="start|center_vertical"
+            android:drawableLeft="@drawable/button_back"
+            android:drawablePadding="60dp"
+            android:paddingStart="16dp"
+            android:text="Câu Hỏi Yêu Thích"
+            android:textSize="20dp" />
+
+        <!-- Ô tìm kiếm -->
+        <AutoCompleteTextView
+            android:id="@+id/searchInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button2"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:hint="Tìm kiếm câu hỏi"
+                android:textSize="16sp"
+                android:drawableLeft="@drawable/ic_search_24"
+                android:background="@drawable/blue_blox" />
+
+        <!-- RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/favoriteRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/searchInput"
+            android:layout_marginTop="10dp"
+            android:padding="8dp" />
+
+</RelativeLayout>

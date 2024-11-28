@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollable"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Button for Summary -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:gravity="start|center_vertical"
+            android:drawableLeft="@drawable/button_back"
+            android:drawablePadding="20dp"
+            android:paddingStart="16dp"
+            android:text="TÓM TẮT MẸO LÝ THUYẾT HỌC LÁI XE"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/spinner_select_chapter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:drawableStart="@drawable/baseline_manage_search_24"
+            android:background="@drawable/blue_blox" />
+
+        <!-- Chapter I -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I. CÁC KHÁI NIỆM CƠ BẢN"
+            android:id="@+id/text_section1"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Phần đường xe chạy: Là phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại.\n2. Làn đường: chia theo chiều dọc, có bề rộng đủ cho xe chạy an toàn.\n3. Khổ giới hạn đường bộ: chiều cao, chiều rộng, hàng hóa xếp trên xe.\n4. Dải phân cách: phân chia phần đường xe cơ giới, xe thô sơ.\n• Gồm hai loại: cố định và di động.\n5. Người lái xe: là người điều khiển xe cơ giới.\n6. Đường ưu tiên: được các phương tiện nhường đường.\n7. Phương tiện giao thông cơ giới đường bộ: kể cả xe máy điện, các loại xe tương tự.\n8. Phương tiện giao thông thô sơ đường bộ: kể cả xe đạp máy, các loại xe tương tự.\n9. Phương tiện tham gia giao thông đường bộ: cơ giới, thô sơ, xe máy chuyên dùng.\n10. Người điều khiển phương tiện tham gia giao thông: người điều khiển xe cơ giới, xe thô sơ, xe máy chuyên dùng.\n11. Người tham gia giao thông:\n• Người sử dụng phương tiện.\n• Dẫn dắt súc vật, người đi bộ.\n12. Người điều khiển giao thông:\n• Cảnh sát giao thông.\n• Người được giao nhiệm vụ hướng dẫn giao thông.\n13. Dừng xe: đứng yên tạm thời.\n14. Đổ xe: đứng yên không giới hạn thời gian."
+            android:layout_marginStart="5dp"
+            android:padding="10dp"
+            android:background="@drawable/blue_blox"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Chapter II -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="II. QUY TẮC GIAO THÔNG ĐƯỜNG BỘ"
+            android:id="@+id/text_section2"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Hiệu lệnh của người điều khiển giao thông: Tay giơ thẳng đứng: tất cả dừng lại. Hai tay hoặc một tay giơ ngang: trước sau dừng lại, trái phải được đi.\n2. Khi sử dụng GPLX đã khai báo mất: bị tước GPLX 5 năm.\n3. Trong đô thị và khu đông dân cư: Không được bấm còi từ 22 giờ tối đến 5 giờ sáng. Không được sử dụng đèn chiếu xa. Chỉ được báo hiệu xin vượt bằng đèn từ 22 giờ đến 5 giờ sáng. Chỉ được quay đầu xe nơi đường giao nhau, nơi có biển báo quay đầu xe.\n4. Nhường đường tại nơi giao nhau: Không có biển báo hiệu đi theo vòng xuyến nhường đường bên phải. Có biển báo hiệu đi theo vòng xuyến nhường đường bên trái.\n5. Xe quá tải trọng, quá khổ khi lưu thông trên đường: phải được cơ quan quản lý đường bộ có thẩm quyền cấp phép.\n6. Khi đỗ xe ô tô sát lề đường hè phố phái bên phải: Cách lề, hè phố không quá 0.25 m. Cách xe ô tô đang đỗ phía bên kia đường tối thiểu 20m.\n7. Vạch nét liền không được đè vạch, vạch nét đứt được đè vạch.\n8. Vạch màu vàng phân chia các làn xe ngược chiều; vạch màu trắng phân chia các làn xe chạy cùng chiều."
+            android:layout_marginStart="5dp"
+            android:padding="10dp"
+            android:background="@drawable/blue_blox"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Chapter III -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_section3"
+            android:text="III. TỐC ĐỘ TỐI ĐA CHO PHÉP, KHOẢNG CÁCH AN TOÀN"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xe máy chuyên dùng, xe gắn máy (kể cả xe máy điện) và các loại xe tương tự: 40 km/h. Tốc độ tối đa cho phép trong khu vực đông dân cư (trừ đường cao tốc).\nLoại xe cơ giới đường bộ   Tốc độ tối đa cho phép (km/h)\n1. Xe ô tô chở người: 50 km/h trong khu dân cư, 80 km/h ngoài khu dân cư.\n2. Xe tải và xe ô tô chở hàng: 40 km/h trong khu dân cư, 70 km/h ngoài khu dân cư.\n3. Xe gắn máy: 40 km/h trong khu dân cư, 60 km/h ngoài khu dân cư.\n4. Xe khách: 50 km/h trong khu dân cư, 90 km/h ngoài khu dân cư.\n5. Khoảng cách an toàn giữa các xe: phải đảm bảo khoảng cách tối thiểu bằng với tốc độ của xe phía trước."
+            android:layout_marginStart="5dp"
+            android:padding="10dp"
+            android:background="@drawable/blue_blox"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Chapter IV -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IV. LƯU Ý KHI THAM GIA GIAO THÔNG"
+            android:id="@+id/text_section4"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Luôn luôn kiểm tra tình trạng xe trước khi lái.\n2. Đảm bảo đeo dây an toàn và sử dụng mũ bảo hiểm khi cần thiết.\n3. Không sử dụng điện thoại di động khi lái xe.\n4. Tuân thủ các biển báo giao thông và quy định hiện hành.\n5. Giữ khoảng cách an toàn với các phương tiện khác.\n6. Không lái xe khi đã sử dụng chất kích thích hoặc rượu bia."
+            android:layout_marginStart="5dp"
+            android:padding="10dp"
+            android:background="@drawable/blue_blox"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <!-- Chapter V -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V. KẾT LUẬN"
+            android:id="@+id/text_section5"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lái xe an toàn không chỉ là trách nhiệm của cá nhân mà còn là trách nhiệm của tất cả mọi người tham gia giao thông. Việc nắm vững các quy định và mẹo lý thuyết sẽ giúp giảm thiểu tai nạn và đảm bảo an toàn cho bản thân và người khác.\n"
+            android:layout_marginStart="5dp"
+            android:padding="10dp"
+            android:background="@drawable/blue_blox"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/button_back_to_top"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="QUAY LẠI ĐẦU TRANG"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:background="@drawable/bg_btn_blue_corner_16"
+            android:textColor="#FFFFFF"
+            android:drawableLeft="@drawable/button_back"
+            android:visibility="gone"
+        />
+
+
+    </LinearLayout>
+</ScrollView>

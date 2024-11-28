@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ôn Thi GPLX A1</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string-array name="chapter_list">
+        <item>Chapter 1: Introduction</item>
+        <item>Chapter 2: Basics</item>
+        <item>Chapter 3: Advanced Topics</item>
+        <item>Chapter 4: Summary</item>
+    </string-array>
+    
+</resources>
